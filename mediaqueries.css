@@ -252,7 +252,7 @@
     font-size: 1.5rem;
   }
   .nav-links {
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.5rem;
     text-align: center;
   }
@@ -265,9 +265,10 @@
     font-size: 1.25rem;
   }
   .title {
+    /* padding-bottom: 2rem; */
     font-size: 2rem;
   }
   .text-container {
-    text-align: justify;
+    text-align: center;
   }
 }
